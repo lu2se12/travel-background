@@ -1,0 +1,22 @@
+@charset "utf-8";
+/*footer*/
+.footerbox{ border-top: 4px solid #bd2d30; height: 230px; background: #363636;}
+.links{ height: 80px; line-height: 80px; text-align: center; color:#b3b3b3;}
+.links a,.foot-inline a{ color:#b3b3b3; padding: 13px;}
+.links a:hover,.foot-inline a:hover{ color:#bd2d30;}
+.bqlogo{ margin: 10px auto; text-align: center;}
+.adds{ color:#757575; line-height: 25px; text-align: center; padding: 10px 0 0 0;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

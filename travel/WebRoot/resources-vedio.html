@@ -1,0 +1,355 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>职行网</title>
+<link href="css/base.css" rel="stylesheet" type="text/css" />
+<link href="css/top-menu.css" rel="stylesheet" type="text/css" />
+<link href="css/home.css" rel="stylesheet" type="text/css" />
+<link href="css/inner.css" rel="stylesheet" type="text/css" />
+<link href="css/footer.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery-1.8.min.js"></script>
+</head>
+
+<body>
+<div class="wrapper topbox">
+	<div class="wrap-inbox topinbox">
+    	<div class="logo_line cf">
+        	<div class="fl logobox"><a href="index.html"><img alt="职行网" src="images/zx_logo.png" width="150" /></a></div>
+        	<div class="fl searchbox cf">
+            	<input type="text" class="search-input fl" value="课程名称、讲师、院校名称" onfocus="if(this.value=='课程名称、讲师、院校名称'){this.value='';}" onblur="if(this.value==''){this.value='课程名称、讲师、院校名称';}" /> 
+                <div class="search-btn fl">搜索</div>
+            </div>
+       	  <div class="fr grinfobox cf">
+            	<div class="grinfo-photo fl"><img src="images/photo.png" width="50" height="50" /><span></span></div>
+                <div class="fl grinfo-txt"><a href="javascript:void(0);">张盈盈</a><span>|</span><a href="javascript:void(0);">退出登录</a><span>|</span><a href="javascript:void(0);">帮助</a></div>
+          </div>
+        </div>
+    	<div class="menu_line">
+        	<div class="fl menu_fl">全部课程分类
+            	<div class="allflbox" style="display: none;">
+                	<ul>
+                        <li id="zz_show">
+                            <a href="javascript:void(0);">中职<i>></i></a>
+                            <div class="zz_listbox" id="zz_list" style="display: none;">
+                                    <h2>文化课</h2>
+                                    <h5>
+                                        <a href="javascript:void(0);">语文</a><span>|</span>
+                                        <a href="javascript:void(0);">数学</a><span>|</span> 
+                                        <a href="javascript:void(0);">英语</a><span>|</span>
+                                        <a href="javascript:void(0);">公共艺术</a><span>|</span>
+                                        <a href="javascript:void(0);">人文素养</a>
+                                    </h5>
+                                    <h2>专业课</h2>
+                                    <h5>
+                                        <a href="javascript:void(0);">计算机应用</a><span>|</span>
+                                        <a href="javascript:void(0);">数控技术</a><span>|</span>
+                                        <a href="javascript:void(0);">电子技术</a><span>|</span>
+                                        <a href="javascript:void(0);">电子电器</a><span>|</span>
+                                        <a href="javascript:void(0);">学前教育</a><span>|</span>
+                                        <a href="javascript:void(0);">会计</a><span>|</span>
+                                        <a href="javascript:void(0);">汽车运用与维修</a>
+                                    </h5>
+                                    <div class="arrowleft"></div>
+                             </div>
+                          </li>
+                        <li id="gz_show">
+                            <a href="javascript:void(0);">高职<i>></i></a>
+                            <div class="zz_listbox gz_hei" id="gz_list" style="display: none;">
+                                    <h2>文化课</h2>
+                                    <h5>
+                                        <a href="javascript:void(0);">大学语文</a><span>|</span>
+                                        <a href="javascript:void(0);">高等数学</a><span>|</span> 
+                                        <a href="javascript:void(0);">高职英语</a><span>|</span>
+                                        <a href="javascript:void(0);">应用写作</a><span>|</span>
+                                        <a href="javascript:void(0);">大学生心理健康教程</a>
+                                    </h5>
+                                    <h2>专业课</h2>
+                                    <h5>
+                                        <a href="javascript:void(0);">学前教育</a>
+                                    </h5>
+                                    <div class="gzarrow"></div>
+                             </div>
+                          </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="menu_text fl">
+                <ul>
+                    <li><a href="index.html">首页</a></li>
+                    <li><a href="class.html">课程中心</a></li>
+                    <li id="zylist">
+                        <a href="resources.html" class="nac-color">资源中心</a>
+                        <div class="zylistbox" style="display: none;">
+                            <a href="javascript:void(0);">微课堂</a>|
+                            <a href="javascript:void(0);">课程标准</a>|
+                            <a href="javascript:void(0);">教学设计</a>|
+                            <a href="javascript:void(0);">教学课件</a>|
+                            <a href="javascript:void(0);">虚拟实训</a>|
+                            <a href="javascript:void(0);">教学视频</a>|
+                            <a href="javascript:void(0);">学习测评</a>
+                            <div class="arrowred"></div>
+                        </div>
+                    </li>
+                    <li><a href="javascript:void(0);">测评中心</a></li>
+                    <li><a href="school.html">校企直通</a></li>
+                    <li><a href="javascript:void(0);">学习社区</a></li>
+                    <li><a href="teach.html">教材速递</a></li>
+                    <li><a href="newslist.html">职教动态</a></li>
+                    <li><a href="javascript:void(0);">积分商城</a></li>
+                    <li><a href="javascript:void(0);">个人中心</a></li>
+
+                </ul>    
+            </div>                        
+        </div>
+    </div>
+</div>
+
+<div class="wrapper">
+	<div class="wrap-inbox">
+    	<div class="inner-title"><span class="color-1">我的位置：</span><span class="color-2">首页 > 资源中心</span></div>
+        <div class="inner-inline">
+        	<ul>
+            	<li class="bor-bottom-color-1">
+                	<div class="inner-li-left color-1">学科：</div>
+                    <div class="inner-li-right">
+                    	<ul>
+                        	<li>全部</li>
+                        	<li>语文</li>
+                        	<li class="color-3">数学</li>
+                        	<li>英语</li>
+                        	<li>物理 </li>
+                        	<li>公共素质</li>
+                        	<li>学前教育</li>
+                        	<li>会计</li>
+                        	<li>计算机应用</li>
+                        	<li>数控技术</li>
+                        	<li>电子技术</li>
+                        	<li>电子电器</li>
+                        	<li>汽车运用与维修</li>
+                        	<li>其他</li>
+                        </ul>
+                    </div>
+                </li>
+            	<li class="bor-bottom-color-1">
+                	<div class="inner-li-left color-1">学段：</div>
+                    <div class="inner-li-right">
+                    	<ul>
+                        	<li>全部</li>
+                        	<li class="color-3">中职</li>
+                        	<li>高职</li>
+                        </ul>
+                    </div>
+                </li>
+            	<li>
+                	<div class="inner-li-left color-1">类型：</div>
+                    <div class="inner-li-right">
+                    	<ul>
+                        	<li>全部</li>
+                        	<li>微课堂</li>
+                        	<li class="color-3">电子教材</li>
+                        	<li>课程标准</li>
+                        	<li>教学设计</li>
+                        	<li>教学课件</li>
+                        	<li>虚拟实训</li>
+                        	<li>企业案例</li>
+                        	<li>学习测评</li>
+                        	<li>职业资格标准</li>
+                        	<li>职业资格题库</li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="wrapper">
+	<div class="wrap-inbox">
+    	<div class="book-title">
+            <span>
+            	<div class="book-order">
+                	<ul>
+                    	<li>排序：</li>
+                    	<li class="bor-color-r-n bor-li-over">最新<span class="book-arrow-down"></span></li>
+                    	<li class="bor-color-r-n">评分<span class="book-arrow-down"></span></li>
+                    	<li class="bor-color-r-n">浏览量<span class="book-arrow-down"></span></li>
+                    </ul>
+                </div>
+            </span>
+            <b class="fts16 color-2">电子教材</b>
+        </div>
+        <div class="book-bg">
+        	<ul>
+            	<li class="book-name">
+                    <div class="book-name-left">
+                        <img src="images/book/book-1.png" />
+                        <div class="book-name-none"></div>
+                    </div>
+                    <div class="book-name-center">
+                        <div class="book-c-name color-3">中职英语基础（上册）</div>
+                        <div class="book-c-score color-1">
+                            教材评分：8.2&nbsp;&nbsp;
+                            <span class="book-star-yellow"></span>
+                            <span class="book-star-yellow"></span>
+                            <span class="book-star-yellow"></span>
+                            <span class="book-star-yellow"></span>
+                            <span class="book-star"></span>
+                        </div>
+                        <div class="book-c-description fts12 color-1">本单元是新生入学的第一单元,教学重点是活用招呼用语、相互了解个人基本信息、制作个人名片、学习不同职业的表达与描述以及练习发音。就学习英语而言,职业学校的许多...</div>
+                        <div class="book-c-source color-1"><span>来源：语文出版社</span><span>上传时间：2015-11-28</span><span>下载量：240</span></div>
+                    </div>
+                    <div class="book-name-right">
+                    	<span class="color-3">已收藏</span><br />
+                        <span class="color-2">1230 人已浏览</span><br />
+                        <a href="javascript:void(0);" class="btn-more">查看详情></a></span>
+                    </div>
+            	</li>
+                <li class="book-name">
+                    <div class="book-name-left">
+                        <img src="images/book/book-2.png" />
+                    </div>
+                    <div class="book-name-center">
+                        <div class="book-c-name color-2">中职英语基础（下册）</div>
+                        <div class="book-c-score color-1">
+                            教材评分：8.2&nbsp;&nbsp;
+                            <span class="book-star-yellow"></span>
+                            <span class="book-star-yellow"></span>
+                            <span class="book-star-yellow"></span>
+                            <span class="book-star-yellow"></span>
+                            <span class="book-star"></span>
+                        </div>
+                        <div class="book-c-description fts12 color-1">本单元是新生入学的第一单元,教学重点是活用招呼用语、相互了解个人基本信息、制作个人名片、学习不同职业的表达与描述以及练习发音。就学习英语而言,职业学校的许多...</div>
+                        <div class="book-c-source color-1"><span>来源：语文出版社</span><span>上传时间：2015-11-25</span><span>下载量：26</span></div>
+                    </div>
+                    <div class="book-name-right">
+                    	<span class="color-2">收藏</span><br />
+                        <span class="color-2">123000 人已浏览</span><br />
+                        <a href="javascript:void(0);" class="btn-more">查看详情></a></span>
+                    </div>
+            	</li>
+                <li class="book-name">
+                    <div class="book-name-left">
+                        <img src="images/book/book-3.png" />
+                    </div>
+                    <div class="book-name-center">
+                        <div class="book-c-name color-2">中职英语教参基础模块（上册）</div>
+                        <div class="book-c-score color-1">
+                            教材评分：8.2&nbsp;&nbsp;
+                            <span class="book-star-yellow"></span>
+                            <span class="book-star-yellow"></span>
+                            <span class="book-star-yellow"></span>
+                            <span class="book-star-yellow"></span>
+                            <span class="book-star"></span>
+                        </div>
+                        <div class="book-c-description fts12 color-1">本单元是新生入学的第一单元,教学重点是活用招呼用语、相互了解个人基本信息、制作个人名片、学习不同职业的表达与描述以及练习发音。就学习英语而言,职业学校的许多...</div>
+                        <div class="book-c-source color-1"><span>来源：语文出版社</span><span>上传时间：2015-11-24</span><span>下载量：1024</span></div>
+                    </div>
+                    <div class="book-name-right">
+                    	<span class="color-2">收藏</span><br />
+                        <span class="color-2">12310 人已浏览</span><br />
+                        <a href="javascript:void(0);" class="btn-more">查看详情></a></span>
+                    </div>
+            	</li>
+                <li class="book-name">
+                    <div class="book-name-left">
+                        <img src="images/book/book-4.png" />
+                    </div>
+                    <div class="book-name-center">
+                        <div class="book-c-name color-2">中职英语教参基础模块（下册）</div>
+                        <div class="book-c-score color-1">
+                            &nbsp;
+                        </div>
+                        <div class="book-c-description fts12 color-1">&nbsp;</div>
+                        <div class="book-c-source color-1">&nbsp;</div>
+                    </div>
+                    <div class="book-name-right">
+                    	<span class="color-2">收藏</span><br />
+                        <span class="color-2">123000 人已浏览</span><br />
+                        <a href="javascript:void(0);" class="btn-more">查看详情></a></span>
+                    </div>
+            	</li>
+                <li class="book-name">
+                    <div class="book-name-left">
+                        <img src="images/book/book-5.png" />
+                    </div>
+                    <div class="book-name-center">
+                        <div class="book-c-name color-2">中职英语升学总复习教程</div>
+                        <div class="book-c-score color-1">
+                            &nbsp;
+                        </div>
+                        <div class="book-c-description fts12 color-1">&nbsp;</div>
+                        <div class="book-c-source color-1">&nbsp;</div>
+                    </div>
+                    <div class="book-name-right">
+                    	<span class="color-2">收藏</span><br />
+                        <span class="color-2">123000 人已浏览</span><br />
+                        <a href="javascript:void(0);" class="btn-more">查看详情></a></span>
+                    </div>
+            	</li>
+                <li class="book-name">
+                    <div class="book-name-left">
+                        <img src="images/book/book-6.png" />
+                    </div>
+                    <div class="book-name-center">
+                        <div class="book-c-name color-2">中职英语拓展模块</div>
+                        <div class="book-c-score color-1">
+                            &nbsp;
+                        </div>
+                        <div class="book-c-description fts12 color-1">&nbsp;</div>
+                        <div class="book-c-source color-1">&nbsp;</div>
+                    </div>
+                    <div class="book-name-right">
+                    	<span class="color-2">收藏</span><br />
+                        <span class="color-2">1200 人已浏览</span><br />
+                        <a href="javascript:void(0);" class="btn-more">查看详情></a></span>
+                    </div>
+            	</li>
+            </ul>
+        </div>
+        <div class="book-page">
+        	<a href="javascript:void(0);">首页</a>
+        	<a href="javascript:void(0);">上一页</a>
+        	<a href="javascript:void(0);" class="page-over">1</a>
+        	<a href="javascript:void(0);">2</a>
+        	<a href="javascript:void(0);">3</a>
+        	<a href="javascript:void(0);">4</a>
+        	<a href="javascript:void(0);">5</a>
+        	<a href="javascript:void(0);">6</a>
+        	<a href="javascript:void(0);">7</a>
+        	<a href="javascript:void(0);">下一页</a>
+        	<a href="javascript:void(0);">尾页</a>
+        </div>
+    </div>
+</div>
+
+<div class="wrapper footerbox">
+  <div class="wrap-inbox">
+  	<div class="links">
+   	  <a href="index.html">首页</a>|
+   	  <a href="class.html">课程中心</a>|
+   	  <a href="resources.html">资源中心</a>|
+   	  <a href="javascript:void(0);">测评中心</a>|
+   	  <a href="school.html">校企直通</a>|
+   	  <a href="javascript:void(0);">学习社区</a>|
+   	  <a href="teach.html">教材速递</a>|
+   	  <a href="newslist.html">职教动态</a>|
+   	  <a href="javascript:void(0);">积分商城</a>|
+   	  <a href="javascript:void(0);">个人中心</a>
+    </div>
+    <div class="foot-inline">
+      友情链接:
+   	  <a href="http://www.ywcbs.com/">语文出版社</a>| 
+   	  <a href="http://www.zhenyuwen.org/">真语文</a>|
+      <a href="http://www.ywcbs.com/gpjh/">国培计划</a>
+    </div>
+    <div class="bqlogo"><img src="images/bot_logo.png" width="193" height="28" /></div>
+    <div class="adds">
+        地址：北京市东城区朝阳门内南小街51号　邮编：100010<br />
+        版权所有(C) 1999-2015 语文出版社有限公司</div>
+    </div>
+</div>
+<script src="js/slider.js" type="text/javascript"></script>
+<script src="js/tabs.js" type="text/javascript"></script>
+</body>
+</html>
